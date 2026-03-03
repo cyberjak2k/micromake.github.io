@@ -61,6 +61,20 @@ theme:
       toggle:
         icon: lucide/sun-moon
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: lucide/moon-star
+        name: Switch to system preference
        
   favicon: assets/logo.png
   logo: assets/logo.png
